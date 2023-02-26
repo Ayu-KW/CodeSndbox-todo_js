@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO（JS）</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <!-- 入力欄（input-area） -->
+    <div class="input-area">
+      <!-- 入力する箇所は「input」タグを使用する -->
+      <input id="add-text" placeholder="TODOを入力" />
+      <!-- 押して何かのアクションを起こさせたいので「button」タグを使用する -->
+      <button id="add-button">追加</button>
+    </div>
+
+    <!-- 未完了欄（incomplate-area） -->
+    <div class="incomplate-area">
+      <p class="title">未完了のTODO</p>
+      <!-- リストを増やしたり減らしたりしたいので「ul」「li」タグを使用する -->
+      <ul id="incomplate-list">
+        <!-- 「li」タグがボタンの動作によって増減する予定 -->
+        <!-- <li>
+          <div class="list-row">
+            <p>TODOです</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <!-- 完了欄（complate-area） -->
+    <div class="complate-area">
+      <p class="title">完了したTODO</p>
+      <ul id="complate-list">
+        <!-- <li>
+          <div class="list-row">
+            <p>TODOでした</p>
+            <button>戻す</button>
+          </div>
+        </li> -->
+      </ul>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
